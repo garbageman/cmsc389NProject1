@@ -6,13 +6,23 @@
   <link rel='stylesheet' href='css/bootstrap.min.css'/>
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
+  <nav class="navbar-inverse">
       <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="#">Weekend at Damien's</a>
-        <a class="navbar-brand" href="friday">Friday</a>
       </div>
-    </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav nav-days">
+          <li><a>Friday</a></li>
+          <li><a>Saturday</a></li>
+          <li><a>Sunday</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
   </nav>
   <div class="main-content container-fluid">
     <div class="introduction">
@@ -20,12 +30,13 @@
         Welcome to my weekend!
     </div>
     <div class="friday">
-      <h2>Friday</h2>
+      <div class="day-header"><h2>Friday</h2></div>
       <div class="rebecca">
         <a href="https://www.youtube.com/watch?v=kfVsfOSbJY0"><img class="rebecca-img" src="https://i.ytimg.com/vi/kfVsfOSbJY0/maxresdefault.jpg"></img></a>
       </div>
     </div>
     <div class="saturday">
+      <h2>Saturday<h2>
 
     </div>
     <div class="sunday">
@@ -36,4 +47,10 @@
     </div>
   </div>
 </body>
+<footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</footer>
 </html>

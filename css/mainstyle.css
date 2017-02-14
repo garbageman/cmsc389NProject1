@@ -1,3 +1,27 @@
 .rebecca-img {
   width: 100%;
 }
+
+.day-header {
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1F1F1F;
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  .day-header {
+    width:100%;
+  }
+}
+
+@media (min-width: 500px) {
+  .day-header {
+    width:50%;
+  }
+}
+
+.friday {
+  width: 100%;
+}
