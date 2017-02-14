@@ -28,4 +28,9 @@
 .day-desc {
   padding-top:2rem;
   padding-bottom:2rem;
+  font-size: 2rem;
+}
+
+.container h1 {
+    font-size:64px;
 }
