@@ -79,3 +79,13 @@
   flex-direction: row;
   padding-bottom: 2rem;
 }
+
+.contact-header {
+  font-size: 36px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
