@@ -8,7 +8,6 @@
   color: #9D9D9D;
   padding-left: 2rem;
   padding-bottom: 1rem;
-  margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
@@ -45,4 +44,38 @@
   background-color: #ffe266;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.nature-img-container {
+  width: 30%;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.nature-img {
+  width: 100%;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.imgTable-footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.myCell {
+  font-size: 18px;
+}
+
+.img-desc {
+  padding-bottom: 1rem;
+}
+
+.myHeader {
+  font-size: 24px;
+}
+
+.nature-pics {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem;
 }
